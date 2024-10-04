@@ -1,0 +1,934 @@
+// X-Large devices (large desktops, 1200px and up)
+@media (max-width: 1200px) {
+    section {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+
+}
+
+// Large devices (desktops, 992px and up)
+@media (max-width: 992px) {
+
+    // HERO SECTION 
+    .hero_section {
+        width: 100%;
+
+        .container1 {
+            padding-left: 60px;
+            padding-right: 60px;
+        }
+
+    }
+
+    // HERO SECTION END
+    // CALL TO ACTION SECTION 01
+    .call_to_action_01 {
+        width: 100%;
+
+        .container {
+            flex-wrap: wrap;
+
+            .left_box {
+                width: 35% !important;
+
+                img {
+                    height: 300px;
+                    text-align: left;
+                }
+            }
+
+            .right_box {
+                width: 65% !important;
+
+                h2 {
+                    font-size: 40px !important;
+                    line-height: 45px !important;
+                }
+            }
+
+
+
+        }
+    }
+
+    // CALL TO ACTION SECTION 01 END
+
+    // CALL TO ACTION SECTION 02
+    .call_to_action_02 {
+        width: 100%;
+
+        .container {
+            flex-wrap: wrap;
+
+            .left_box {
+                width: 60% !important;
+                flex-basis: 400px;
+
+                h2 {
+                    font-size: 40px !important;
+                    line-height: 45px !important;
+                }
+
+            }
+
+            .right_box {
+                width: 45% !important;
+                margin-left: 0px;
+                margin-right: 0px;
+
+                img {
+                    width: 100%;
+                    height: auto;
+                    text-align: right;
+                }
+
+            }
+
+
+
+        }
+    }
+
+    // CALL TO ACTION SECTION 02 END
+
+    // FEATURES SECTION
+    .features_section {
+
+
+        .container {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+
+            .left_box {
+                width: 100%;
+                flex-shrink: 1;
+                z-index: 11111;
+                overflow: hidden;
+
+                .features_items_container {
+
+                    .serv_items {
+                        width: 50%;
+
+                        .serv-box {
+                            margin: 10px;
+                            width: 100%;
+                            padding: 30px;
+
+                            img {
+                                width: 45px;
+                                height: 45px;
+                                line-height: 20px;
+                                padding: 10px;
+
+                            }
+
+                            h3 {
+                                font-size: 20px;
+
+                            }
+
+
+                        }
+
+                        .text_box {
+                            margin-top: 10px;
+                        }
+                    }
+
+                    .slick-dots {
+                        position: absolute;
+                        bottom: -30px;
+
+                        li {
+                            width: 30px;
+                            height: 30px;
+                        }
+                    }
+                }
+
+            }
+
+            .right_box {
+                width: 100%;
+
+                img {
+                    width: 100%;
+                    text-align: left;
+                }
+            }
+
+
+
+        }
+    }
+
+    // FEATURES SECTION END
+
+    // CREATORS PROFILE SECTION
+    .creators_p_section {
+        .container {
+            .creator_profile_slide {
+                .items {
+                    flex-shrink: 1;
+                    width: 105px;
+                    height: 105px;
+                    flex-basis: 90px;
+                    border-radius: 50%;
+                    margin: 7px;
+
+                    img {
+
+                        width: 110px !important;
+                        height: 110px !important;
+                    }
+                }
+            }
+        }
+
+
+    }
+
+    // CREATORS PROFILE SECTION END
+
+    // DISCOVER SECTION
+    .discover_section {
+
+        .container {
+            padding: 30px 20px !important;
+
+            .box {
+                width: 45% !important;
+                flex-basis: 40% !important;
+
+                padding: 20px !important;
+
+                img {
+                    width: 200px;
+                    margin: 0 auto;
+                }
+
+                h3 {
+                    text-align: center;
+                    font-size: 25px !important;
+
+
+                }
+
+                p {
+                    font-size: 15px;
+                }
+            }
+
+        }
+
+    }
+
+    // DISCOVER SECTION END
+
+
+}
+
+// Medium devices (tablets, 768px and up)
+@media (max-width: 857px) {
+
+    // z-index: 111;
+    .section_heading {
+        text-align: center;
+        font-size: 35px !important;
+        line-height: 45px !important;
+    }
+
+    .h_caption {
+        font-size: 15px !important;
+    }
+
+    // HERO SECTION 
+    .hero_section {
+        width: 100%;
+
+        .container1 {
+            padding-left: 30px;
+            padding-right: 30px;
+
+            h1 {
+                font-size: 42px !important;
+                line-height: 48px !important;
+            }
+
+            p {
+                font-size: 16px !important;
+                line-height: 20px !important;
+            }
+
+            .input_group {
+                width: 100% !important;
+
+                label {
+                    height: 50px;
+                    border: none;
+                    outline: none;
+                    border-radius: 30px 0px 0px 30px;
+                    transition: 0.2s all ease-in;
+                    padding: 10px 15px;
+                    line-height: 30px;
+                    font-size: 15px;
+                    font-weight: 500;
+                }
+
+                input {
+                    height: 50px;
+                    border: none;
+                    outline: none;
+                    border-radius: 0px 30px 30px 0px;
+                    font-size: 14px;
+                }
+
+
+                button {
+                    background: linear-gradient(to right top, rgba(121, 0, 255, 1), rgba(121, 0, 255, 1));
+                    margin-left: -20px;
+                    width: 160px;
+                    border-radius: 0px 30px 30px 0px;
+                }
+            }
+        }
+
+
+    }
+
+    // HERO SECTION END
+
+    // CALL TO ACTION SECTION 01
+    .call_to_action_01 {
+        width: 100%;
+
+        .container {
+            flex-wrap: wrap;
+
+            .left_box {
+                width: 100% !important;
+                text-align: center;
+
+                img {
+                    height: 300px;
+                    text-align: center;
+                }
+            }
+
+            .right_box {
+                width: 100% !important;
+
+                h2 {
+                    font-size: 35px !important;
+                    line-height: 40px !important;
+                }
+            }
+
+
+
+        }
+    }
+
+    // CALL TO ACTION SECTION 01 END
+
+    // CALL TO ACTION SECTION 02
+    .call_to_action_02 {
+        width: 100%;
+
+        .container {
+            flex-wrap: wrap;
+
+            .left_box {
+                width: 100% !important;
+
+                h2 {
+                    font-size: 35px !important;
+                    line-height: 40px !important;
+                }
+
+            }
+
+            .right_box {
+                width: 100% !important;
+                text-align: center;
+                margin-right: 0px !important;
+                margin-left: 0px !important;
+
+
+                img {
+                    margin-top: 20px;
+                    text-align: center;
+                    width: 100%;
+                    height: auto !important;
+                }
+
+            }
+
+
+
+        }
+    }
+
+    // CALL TO ACTION SECTION 02 END
+    // FEATURES SECTION
+    .features_section {
+
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            padding: 20px 15px !important;
+
+            .left_box {
+                width: 100%;
+
+                .features_items_container {
+
+                    .serv_items {
+                        width: 50%;
+
+                        .serv-box {
+                            padding: 15px !important;
+
+                            img {
+                                width: 45px;
+                                height: 45px;
+                                line-height: 20px;
+                                padding: 10px;
+
+                            }
+
+                            h3 {
+                                font-size: 15px !important;
+
+                            }
+
+                            p {
+                                font-size: 14px !important;
+                            }
+
+
+                        }
+
+                        .text_box {
+                            margin-top: 10px;
+                        }
+                    }
+
+                    .slick-dots {
+                        position: absolute;
+                        bottom: -30px;
+
+                        li {
+                            width: 30px;
+                            height: 30px;
+                        }
+                    }
+                }
+
+            }
+
+            .right_box {
+                width: 100%;
+
+                img {
+                    width: 100%;
+                    text-align: left;
+                }
+            }
+
+
+
+        }
+    }
+
+    // PRICING SECTION
+    .pricing_section {
+        .container {
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+        a.btn1 {
+            display: block;
+            margin-top: 30px;
+            z-index: 11111;
+            width: 90% !important;
+            // display: none;
+        }
+    }
+
+    // PRICING SECTION end
+
+    // FEATURES SECTION END
+    // TEMPLATES SECTION
+    .templates_section {
+
+        .container {
+            display: flex;
+            flex-direction: row;
+            padding: 30px 20px !important;
+
+            ul {
+
+                li {
+                    width: 30% !important;
+                    flex-basis: 250px !important;
+                    height: 480px !important;
+
+                }
+
+            }
+
+            a.discover_btn {
+                width: 400px;
+            }
+
+        }
+    }
+
+    // TEMPLATES SECTION END
+    // DISCOVER SECTION
+    .discover_section {
+
+        .container {
+            padding: 30px 20px !important;
+
+            .box {
+                width: 40% !important;
+                flex-basis: 35% !important;
+
+                padding: 20px !important;
+
+                img {
+                    width: 170px !important;
+                    margin: 0 auto;
+                }
+
+                h3 {
+                    text-align: center;
+                    font-size: 22px !important;
+                    line-height: 25px !important;
+
+                }
+
+                p {
+                    font-size: 14px !important;
+                }
+            }
+
+        }
+
+    }
+
+    // DISCOVER SECTION END
+    // CREATORS PROFILE SECTION
+    .creators_p_section {
+        .container {
+            .creator_profile_slide {
+                .items {
+                    flex-shrink: 1;
+                    width: 90px;
+                    height: 90px;
+                    flex-basis: 70px;
+                    border-radius: 50%;
+                    margin: 7px;
+
+                    img {
+
+                        width: 90px !important;
+                        height: 90px !important;
+                    }
+                }
+            }
+        }
+
+
+    }
+
+    // CREATORS PROFILE SECTION END
+
+    // CALL TO ACTION SECTION 03
+    .call_to_action_03 {
+        // padding: 20px;
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+
+        .container {
+            padding: 30px 20px !important;
+
+            h2 {
+                font-size: 35px !important;
+                line-height: 42px !important;
+            }
+
+            .input_group {
+                width: 100% !important;
+
+                label {
+                    height: 50px;
+                    border: none;
+                    outline: none;
+                    border-radius: 30px 0px 0px 30px;
+                    transition: 0.2s all ease-in;
+                    padding: 10px 15px;
+                    line-height: 30px;
+                    font-size: 15px;
+                    font-weight: 500;
+                }
+
+                input {
+                    height: 50px;
+                    border: none;
+                    outline: none;
+                    border-radius: 0px 30px 30px 0px;
+                    font-size: 14px;
+                }
+
+
+                button {
+                    background: linear-gradient(to right top, rgba(121, 0, 255, 1), rgba(121, 0, 255, 1));
+                    margin-left: -20px;
+                    width: 160px;
+                    height: 50px !important;
+                    border-radius: 0px 30px 30px 0px;
+                }
+            }
+        }
+
+    }
+
+    // CALL TO ACTION SECTION 03 END
+
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (max-width: 576px) {
+
+
+    // HERO SECTION 
+    .hero_section {
+        width: 100%;
+
+        .container1 {
+            padding-left: 20px;
+            padding-right: 20px;
+
+            h1 {
+                font-size: 35px !important;
+                line-height: 42px !important;
+            }
+
+            p {
+                font-size: 14px !important;
+                line-height: 18px !important;
+            }
+
+            .input_group {
+                width: 100% !important;
+
+                label {
+                    height: 45px !important;
+                    padding: 8px 13px;
+                    line-height: 30px;
+                    font-size: 13px;
+                    font-weight: 500;
+                }
+
+                input {
+                    height: 45px !important;
+                    border-radius: 0px 30px 30px 0px;
+                    font-size: 13px;
+                    padding-left: 20px;
+                }
+
+
+                button {
+                    background: linear-gradient(to right top, rgba(121, 0, 255, 1), rgba(121, 0, 255, 1));
+                    margin-left: -30px;
+                    width: 130px;
+                    height: 45px;
+                    border-radius: 0px 30px 30px 0px;
+                    font-size: 13px;
+                }
+            }
+        }
+
+
+    }
+
+    // HERO SECTION END
+    // FEATURES SECTION
+    .features_section {
+
+
+        .container {
+            padding-left: 10px !important;
+            padding-right: 10px !important;
+
+            .left_box {
+                width: 100%;
+
+                .features_items_container {
+
+                    .serv_items {
+                        width: 50%;
+                        flex-grow: 1;
+                        flex-flow: 1;
+                        flex-wrap: wrap !important;
+
+                        .serv-box {
+                            padding: 7px !important;
+                            margin: 5px !important;
+
+                            h3 {
+                                font-size: 14px !important;
+
+                            }
+
+                            p {
+                                font-size: 13px !important;
+                            }
+
+
+                        }
+
+                        .text_box {
+                            margin-top: 10px;
+                        }
+                    }
+
+                    .slick-dots {
+                        position: absolute;
+                        bottom: -30px;
+
+                        li {
+                            width: 30px;
+                            height: 30px;
+                        }
+                    }
+                }
+
+            }
+
+            .right_box {
+                width: 100%;
+                margin-top: 30px;
+
+                img {
+                    width: 100%;
+                    text-align: left;
+                }
+            }
+
+
+
+        }
+    }
+
+    // PRICING SECTION
+    // DISCOVER SECTION
+    .discover_section {
+
+        .container {
+            padding: 30px 20px !important;
+
+            .box {
+                width: 100% !important;
+                flex-basis: 100% !important;
+
+                padding: 20px !important;
+
+                img {
+                    width: 180px;
+                    margin: 0 auto;
+                }
+
+                h3 {
+                    text-align: center;
+                    font-size: 22px !important;
+
+
+                }
+
+                p {
+                    font-size: 15px;
+                }
+            }
+
+        }
+
+    }
+
+    // DISCOVER SECTION END
+
+    // HERO SECTION 
+    .call_to_action_03 {
+        width: 100%;
+
+        .container {
+
+            .input_group {
+                width: 100% !important;
+
+                label {
+                    height: 45px !important;
+                    padding: 8px 13px;
+                    line-height: 30px;
+                    font-size: 13px;
+                    font-weight: 500;
+                }
+
+                input {
+                    height: 45px !important;
+                    border-radius: 0px 30px 30px 0px;
+                    font-size: 13px;
+                    padding-left: 20px;
+                }
+
+
+                button {
+                    margin-left: -40px;
+                    width: 130px;
+                    height: 45px !important;
+                    font-size: 13px;
+                }
+            }
+
+            .circle3 {
+                width: 200px;
+                height: 200px;
+                filter: blur(100px);
+                z-index: 1;
+            }
+        }
+
+
+    }
+
+    // HERO SECTION END
+    .call_to_action_03 .container h2,
+    .call_to_action_01 .container .right_box h2,
+    .call_to_action_02 .container .left_box h2 {
+        font-size: 30px !important;
+        line-height: 35px !important;
+    }
+
+
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (max-width: 400px) {
+
+
+    // HERO SECTION 
+    .hero_section {
+        width: 100%;
+
+        .container1 {
+            padding-left: 20px;
+            padding-right: 20px;
+
+            h1 {
+                font-size: 35px !important;
+                line-height: 42px !important;
+            }
+
+            p {
+                font-size: 14px !important;
+                line-height: 18px !important;
+            }
+
+            .input_group {
+                width: 100% !important;
+
+                label {
+                    height: 45px !important;
+                    padding: 8px 12px;
+                    line-height: 30px;
+                    font-size: 13px;
+                    font-weight: 500;
+                }
+
+                input {
+                    height: 45px !important;
+                    border-radius: 0px 30px 30px 0px;
+                    font-size: 13px;
+                    padding-left: 15px;
+                }
+
+
+                button {
+                    background: linear-gradient(to right top, rgba(121, 0, 255, 1), rgba(121, 0, 255, 1));
+                    margin-left: -50px;
+                    width: 100px !important;
+                    height: 45px;
+                    border-radius: 0px 30px 30px 0px;
+                    font-size: 13px;
+                }
+            }
+        }
+
+
+    }
+
+    // HERO SECTION END
+
+    // HERO SECTION 
+    .call_to_action_03 {
+        width: 100%;
+
+        .container {
+
+            .input_group {
+                width: 100% !important;
+
+                label {
+                    height: 45px !important;
+                    padding: 8px 12px;
+                    line-height: 30px;
+                    font-size: 12px;
+                    font-weight: 500;
+                }
+
+                input {
+                    height: 45px !important;
+                    border-radius: 0px 30px 30px 0px;
+                    font-size: 12px;
+                    padding-left: 10px;
+                }
+
+
+                button {
+                    background: linear-gradient(to right top, rgba(121, 0, 255, 1), rgba(121, 0, 255, 1));
+                    margin-left: -60px;
+                    width: 100px !important;
+                    height: 45px;
+                    border-radius: 0px 30px 30px 0px;
+                    font-size: 12px;
+                }
+            }
+
+            .circle3 {
+                width: 200px;
+                height: 200px;
+                filter: blur(100px);
+                z-index: 1;
+            }
+        }
+
+
+    }
+
+    // HERO SECTION END
+    .call_to_action_03 .container h2,
+    .call_to_action_01 .container .right_box h2,
+    .call_to_action_02 .container .left_box h2 {
+        font-size: 25px !important;
+        line-height: 30px !important;
+    }
+
+}

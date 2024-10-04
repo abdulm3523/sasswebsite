@@ -1,0 +1,972 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
+    scroll-behavior: smooth;
+}
+
+// COLOR VARIATIONS
+$text_color: #000;
+$text_hover_color: #fff;
+$brand_bg_color: linear-gradient(to right top, rgba(121, 0, 255, 0.9), rgba(121, 0, 255, 0.6));
+$main_background: #0f0826 // linear-gradient(to right top, rgba(121, 0, 255, 0.9), rgba(121, 0, 255, 0.6))
+;
+
+
+// Glassmorphism Color
+// Style 01
+$glassbg_bg01: linear-gradient(to right top, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
+$glassbg_border-radius: 16px;
+$glassbg_box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+$glassbg_backdrop-filter: blur(5px);
+$glassbg-webkit-backdrop-filter: blur(5px);
+$glassbg_border: 1px solid rgba(255, 255, 255, 0.18);
+
+
+// TYPHOGRAPHY
+$heading_font: 'Josefin Sans',
+    sans-serif;
+$body_font: 'Space Grotesk',
+    sans-serif;
+// TYPHOGRAPHY end
+
+.btn5,
+.btn1 {
+    background: linear-gradient(to right top, rgba(121, 0, 255, 0.9), rgba(121, 0, 255, 0.6));
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    width: 200px;
+    padding: 13px;
+    text-align: center;
+    margin: 0;
+    position: relative;
+    border-radius: 50px;
+    outline: none;
+    box-shadow: 0 3px 35px 0 rgba(31, 38, 135, 0.37);
+    font-size: 19px;
+    font-weight: 500;
+    font-family: $body_font;
+    cursor: pointer;
+    border: none;
+    transition: all 0.5s ease-in-out;
+
+}
+
+.btn5:hover,
+.btn1:hover {
+    background: linear-gradient(to right top, rgba(121, 0, 255, 0.4), rgba(121, 0, 255, 1));
+    transition: all 0.5s ease-in-out;
+}
+
+.section_heading {
+    text-align: center;
+    font-size: 45px;
+    font-family: $heading_font;
+    color: $text_hover_color;
+    line-height: 50px;
+    z-index: 11111;
+    margin-bottom: 15px;
+}
+
+.h_caption {
+    max-width: 1000px;
+    margin: 0 auto;
+    font-size: 18px;
+    font-family: $body_font;
+    text-align: center;
+    color: $text_hover_color;
+    line-height: 25px;
+    margin-bottom: 25px;
+    z-index: 11111;
+}
+
+section {
+    .container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        margin: 0 auto;
+        max-width: 1200px;
+        padding: 30px 30px;
+        background: linear-gradient(to right top, rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.2));
+        border-radius: 5px;
+        box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.25);
+        backdrop-filter: blur(4px);
+        -webkit-backdrop-filter: blur(4px);
+        border: 1px solid rgba(255, 255, 255, 0.18);
+
+    }
+}
+
+// CALL TO ACTION SECTION 01
+.call_to_action_01 {
+    width: 100%;
+    background: $main_background;
+    position: relative;
+    overflow: hidden;
+    padding: 65px 10px;
+    // padding-top: 120px;
+    // z-index: 111;
+    padding-bottom: 40px;
+
+    .container_hero {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        background: none;
+        align-items: center;
+
+        // LEFT SIDE CSS
+        .left_box {
+            width: 55%;
+            flex-basis: 450px;
+            flex-flow: 1;
+            flex-grow: 1;
+            flex-shrink: 1;
+            z-index: 11111;
+
+            h2 {
+                font-size: 45px;
+                font-family: $heading_font;
+                text-align: left;
+                color: $text_hover_color;
+                line-height: 50px;
+                z-index: 11111;
+                margin-bottom: 15px;
+            }
+
+            p {
+                font-size: 18px;
+                font-family: $body_font;
+                text-align: left;
+                color: $text_hover_color;
+                line-height: 25px;
+                margin-bottom: 25px;
+                z-index: 11111;
+                padding-right: 60px;
+            }
+        }
+
+        // RIGHT SIDE CSS
+        .right_box {
+            width: 45%;
+            flex-shrink: 1;
+            z-index: 11111;
+            text-align: left;
+            align-self: center;
+
+            img {
+                padding-left: 40px;
+                width: 100%;
+                height: auto;
+                text-align: right;
+            }
+        }
+
+
+
+
+
+    }
+}
+
+// CALL TO ACTION SECTION 01 END
+
+
+// FEATURES SECTION
+.features_section {
+    width: 100%;
+    background: $main_background;
+    position: relative;
+    overflow: hidden;
+    padding: 65px 10px;
+
+
+    .container {
+        display: flex;
+        flex-direction: row;
+
+        .left_box {
+            width: 55%;
+            flex-shrink: 1;
+            z-index: 11111;
+            overflow: hidden;
+
+            .features_items_container {
+                display: flex;
+                flex-direction: row;
+                width: 100%;
+                list-style: none;
+                margin: 0;
+                padding: 0;
+                width: 100%;
+
+                .serv_items {
+                    width: 50%;
+                    flex-shrink: 1;
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+
+                    .serv-box {
+                        margin: 10px;
+                        width: 100%;
+                        padding: 30px;
+                        flex-shrink: 1;
+                        flex-flow: 1;
+                        flex-grow: 1;
+                        background: linear-gradient(to right top, rgba(121, 0, 255, 0.4), rgba(121, 0, 255, 1));
+                        // background: linear-gradient(to right top, rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.2));
+                        border-radius: 5px;
+                        box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.25);
+                        backdrop-filter: blur(50px);
+                        -webkit-backdrop-filter: blur(50px);
+                        border: 1px solid rgba(255, 255, 255, 0.18);
+
+                        img {
+                            width: 45px;
+                            height: 45px;
+                            line-height: 20px;
+                            padding: 10px;
+                            // margin: 0 auto;
+                            display: block;
+                            background: linear-gradient(to right top, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.9));
+                            border-radius: 5px;
+                            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.25);
+                            backdrop-filter: blur(30px);
+                            -webkit-backdrop-filter: blur(30px);
+                            border: 1px solid rgba(255, 255, 255, 0.18);
+
+                        }
+
+                        h3 {
+                            font-size: 20px;
+                            font-family: $body_font;
+                            color: $text_hover_color;
+                            line-height: 25px;
+                            margin-bottom: 5px;
+                            z-index: 11111;
+                        }
+
+                        p {
+                            font-size: 15px;
+                            font-family: $body_font;
+                            color: $text_hover_color;
+                            line-height: 20px;
+                            z-index: 11111;
+                        }
+                    }
+
+                    .text_box {
+                        margin-top: 10px;
+                    }
+                }
+
+                .slick-dots {
+                    position: absolute;
+                    bottom: -30px;
+
+                    li {
+                        width: 30px;
+                        height: 30px;
+                        background-color: $brand_bg_color;
+                        color: $text_hover_color;
+                        display: inline-flex !important;
+                    }
+                }
+            }
+
+        }
+
+        .right_box {
+            width: 45%;
+            flex-shrink: 1;
+            z-index: 11111;
+            text-align: right;
+            padding-left: 30px;
+
+            img {
+                width: 100%;
+                text-align: left;
+            }
+        }
+
+
+
+    }
+}
+
+// FEATURES SECTION END
+
+// CALL TO ACTION SECTION 02
+.call_to_action_02 {
+    width: 100%;
+    background: $main_background;
+    position: relative;
+    overflow: hidden;
+    padding: 65px 10px;
+    // z-index: 111;
+
+    .container {
+        display: flex;
+        flex-direction: row;
+
+        // LEFT SIDE CSS
+
+        .left_box {
+            width: 45%;
+            flex-shrink: 1;
+            z-index: 11111;
+
+            img {
+                width: 100%;
+                text-align: left;
+                padding-right: 30px;
+            }
+        }
+
+        // RIGHT SIDE CSS
+
+        .right_box {
+            width: 55%;
+            flex-flow: 1;
+            flex-grow: 1;
+            flex-shrink: 1;
+            z-index: 11111;
+            text-align: right;
+            display: flex;
+            flex-direction: column;
+            padding-left: 30px;
+
+            h2 {
+                font-size: 45px;
+                font-family: $heading_font;
+                text-align: right;
+                color: $text_hover_color;
+                line-height: 50px;
+                z-index: 11111;
+                margin-bottom: 15px;
+            }
+
+            p {
+                font-size: 18px;
+                font-family: $body_font;
+                text-align: right;
+                color: $text_hover_color;
+                line-height: 25px;
+                margin-bottom: 25px;
+                z-index: 11111;
+            }
+
+            .btn1 {
+                margin-right: 0px;
+                align-self: flex-end;
+            }
+        }
+
+
+
+    }
+}
+
+// CALL TO ACTION SECTION 02 END
+
+
+// X-Large devices (large desktops, 1200px and up)
+@media (max-width: 1201px) {
+    section {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+
+}
+
+// Large devices (desktops, 992px and up)
+@media (max-width: 992px) {
+
+    // CALL TO ACTION SECTION 01
+    .call_to_action_01 {
+        width: 100%;
+
+        .container {
+            flex-wrap: wrap;
+
+            .right_box {
+                width: 35% !important;
+
+            }
+
+            .left_box {
+                width: 65% !important;
+
+                h2 {
+                    font-size: 40px !important;
+                    line-height: 45px !important;
+                }
+            }
+
+
+
+        }
+    }
+
+    // CALL TO ACTION SECTION 01 END
+
+    // CALL TO ACTION SECTION 02
+    .call_to_action_02 {
+        width: 100%;
+
+        .container {
+            flex-wrap: wrap;
+
+            .right_box {
+                width: 60% !important;
+                flex-basis: 400px;
+
+                h2 {
+                    font-size: 40px !important;
+                    line-height: 45px !important;
+                }
+
+            }
+
+            .left_box {
+                width: 45% !important;
+                margin-left: 0px;
+                margin-right: 0px;
+
+                img {
+                    width: 100%;
+                    height: auto;
+                    text-align: right;
+                }
+
+            }
+
+
+
+        }
+    }
+
+    // CALL TO ACTION SECTION 02 END
+
+    // FEATURES SECTION
+    .features_section {
+
+
+        .container {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+
+            .left_box {
+                width: 100%;
+                flex-shrink: 1;
+                z-index: 11111;
+                overflow: hidden;
+
+                .features_items_container {
+
+                    .serv_items {
+                        width: 50%;
+
+                        .serv-box {
+                            margin: 10px;
+                            width: 100%;
+                            padding: 30px;
+
+                            img {
+                                width: 45px;
+                                height: 45px;
+                                line-height: 20px;
+                                padding: 10px;
+
+                            }
+
+                            h3 {
+                                font-size: 20px;
+
+                            }
+
+
+                        }
+
+                        .text_box {
+                            margin-top: 10px;
+                        }
+                    }
+
+                    .slick-dots {
+                        position: absolute;
+                        bottom: -30px;
+
+                        li {
+                            width: 30px;
+                            height: 30px;
+                        }
+                    }
+                }
+
+            }
+
+            .right_box {
+                width: 100%;
+
+                img {
+                    width: 100%;
+                    text-align: left;
+                }
+            }
+
+
+
+        }
+    }
+
+    // FEATURES SECTION END
+
+}
+
+@media (max-width: 876px) {
+    .call_to_action_01 {
+        padding-top: 130px;
+
+        .right_box {
+            width: 100% !important;
+
+            img {
+                width: 90% !important;
+                // height: 300px !important;
+            }
+        }
+    }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (max-width: 857px) {
+
+    // z-index: 111;
+    .section_heading {
+        text-align: center;
+        font-size: 35px !important;
+        line-height: 45px !important;
+    }
+
+    .h_caption {
+        font-size: 15px !important;
+    }
+
+    // CALL TO ACTION SECTION 01
+    .call_to_action_01 {
+        width: 100%;
+
+        .container {
+            flex-wrap: wrap;
+
+
+            .left_box {
+                width: 100% !important;
+
+                h2 {
+                    font-size: 35px !important;
+                    line-height: 40px !important;
+                }
+            }
+
+            .right_box {
+                width: 100% !important;
+                text-align: center;
+
+            }
+
+
+
+        }
+    }
+
+    // CALL TO ACTION SECTION 01 END
+
+    // CALL TO ACTION SECTION 02
+    .call_to_action_02 {
+        width: 100%;
+
+        .container {
+            flex-wrap: wrap;
+
+            .left_box {
+                width: 100% !important;
+                text-align: center;
+                margin-right: 0px !important;
+                margin-left: 0px !important;
+                padding: 0px;
+                margin-bottom: 30px;
+
+
+                img {
+                    margin-top: 20px;
+                    text-align: center;
+                    width: 100%;
+                    height: auto !important;
+                    padding: 0px;
+                }
+
+            }
+
+            .right_box {
+                width: 100% !important;
+                text-align: left;
+                padding: 0px;
+
+                h2 {
+                    font-size: 35px !important;
+                    line-height: 40px !important;
+                    text-align: left;
+                }
+
+                p {
+                    text-align: left;
+                }
+
+                .btn1 {
+                    align-self: flex-start;
+                }
+
+            }
+
+
+
+        }
+    }
+
+    // CALL TO ACTION SECTION 02 END
+    // FEATURES SECTION
+    .features_section {
+
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            padding: 20px 15px !important;
+
+            .left_box {
+                width: 100%;
+
+                .features_items_container {
+
+                    .serv_items {
+                        width: 50%;
+
+                        .serv-box {
+                            padding: 15px !important;
+
+                            img {
+                                width: 45px;
+                                height: 45px;
+                                line-height: 20px;
+                                padding: 10px;
+
+                            }
+
+                            h3 {
+                                font-size: 15px !important;
+
+                            }
+
+                            p {
+                                font-size: 14px !important;
+                            }
+
+
+                        }
+
+                        .text_box {
+                            margin-top: 10px;
+                        }
+                    }
+
+                    .slick-dots {
+                        position: absolute;
+                        bottom: -30px;
+
+                        li {
+                            width: 30px;
+                            height: 30px;
+                        }
+                    }
+                }
+
+            }
+
+            .right_box {
+                width: 100%;
+                text-align: center;
+                padding: 0px;
+
+                img {
+                    width: 100%;
+                    padding: 0px;
+                    text-align: center;
+                }
+            }
+
+
+
+        }
+    }
+
+    // CREATORS PROFILE SECTION END
+
+    // CALL TO ACTION SECTION 03
+    .call_to_action_03 {
+        // padding: 20px;
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+
+        .container {
+            padding: 30px 20px !important;
+
+            h2 {
+                font-size: 35px !important;
+                line-height: 42px !important;
+            }
+
+            .input_group {
+                width: 100% !important;
+
+                label {
+                    height: 50px;
+                    border: none;
+                    outline: none;
+                    border-radius: 30px 0px 0px 30px;
+                    transition: 0.2s all ease-in;
+                    padding: 10px 15px;
+                    line-height: 30px;
+                    font-size: 15px;
+                    font-weight: 500;
+                }
+
+                input {
+                    height: 50px;
+                    border: none;
+                    outline: none;
+                    border-radius: 0px 30px 30px 0px;
+                    font-size: 14px;
+                }
+
+
+                button {
+                    background: linear-gradient(to right top, rgba(121, 0, 255, 1), rgba(121, 0, 255, 1));
+                    margin-left: -20px;
+                    width: 160px;
+                    height: 50px !important;
+                    border-radius: 0px 30px 30px 0px;
+                }
+            }
+        }
+
+    }
+
+    // CALL TO ACTION SECTION 03 END
+
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (max-width: 576px) {
+
+
+    // HERO SECTION END
+    // FEATURES SECTION
+    .features_section {
+
+
+        .container {
+            padding-left: 10px !important;
+            padding-right: 10px !important;
+
+            .left_box {
+                width: 100%;
+
+                .features_items_container {
+
+                    .serv_items {
+                        width: 50%;
+                        flex-grow: 1;
+                        flex-flow: 1;
+                        flex-wrap: wrap !important;
+
+                        .serv-box {
+                            padding: 7px !important;
+                            margin: 5px !important;
+
+                            h3 {
+                                font-size: 14px !important;
+
+                            }
+
+                            p {
+                                font-size: 13px !important;
+                            }
+
+
+                        }
+
+                        .text_box {
+                            margin-top: 10px;
+                        }
+                    }
+
+                    .slick-dots {
+                        position: absolute;
+                        bottom: -30px;
+
+                        li {
+                            width: 30px;
+                            height: 30px;
+                        }
+                    }
+                }
+
+            }
+
+            .right_box {
+                width: 100%;
+                margin-top: 30px;
+
+                img {
+                    width: 100%;
+                    text-align: left;
+                }
+            }
+
+
+
+        }
+    }
+
+    // DISCOVER SECTION END
+
+    // HERO SECTION 
+    .call_to_action_03 {
+        width: 100%;
+
+        .container {
+
+            .input_group {
+                width: 100% !important;
+
+                label {
+                    height: 45px !important;
+                    padding: 8px 13px;
+                    line-height: 30px;
+                    font-size: 13px;
+                    font-weight: 500;
+                }
+
+                input {
+                    height: 45px !important;
+                    border-radius: 0px 30px 30px 0px;
+                    font-size: 13px;
+                    padding-left: 20px;
+                }
+
+
+                button {
+                    margin-left: -40px;
+                    width: 130px;
+                    height: 45px !important;
+                    font-size: 13px;
+                }
+            }
+
+            .circle3 {
+                width: 200px;
+                height: 200px;
+                filter: blur(100px);
+                z-index: 1;
+            }
+        }
+
+
+    }
+
+    // HERO SECTION END
+    .call_to_action_03 .container h2,
+    .call_to_action_01 .container .right_box h2,
+    .call_to_action_02 .container .left_box h2 {
+        font-size: 30px !important;
+        line-height: 35px !important;
+    }
+
+
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (max-width: 400px) {
+
+
+    // HERO SECTION END
+
+    // HERO SECTION 
+    .call_to_action_03 {
+        width: 100%;
+
+        .container {
+
+            .input_group {
+                width: 100% !important;
+
+                label {
+                    height: 45px !important;
+                    padding: 8px 12px;
+                    line-height: 30px;
+                    font-size: 12px;
+                    font-weight: 500;
+                }
+
+                input {
+                    height: 45px !important;
+                    border-radius: 0px 30px 30px 0px;
+                    font-size: 12px;
+                    padding-left: 10px;
+                }
+
+
+                button {
+                    background: linear-gradient(to right top, rgba(121, 0, 255, 1), rgba(121, 0, 255, 1));
+                    margin-left: -60px;
+                    width: 100px !important;
+                    height: 45px;
+                    border-radius: 0px 30px 30px 0px;
+                    font-size: 12px;
+                }
+            }
+
+            .circle3 {
+                width: 200px;
+                height: 200px;
+                filter: blur(100px);
+                z-index: 1;
+            }
+        }
+
+
+    }
+
+    // HERO SECTION END
+    .call_to_action_03 .container h2,
+    .call_to_action_01 .container .right_box h2,
+    .call_to_action_02 .container .left_box h2 {
+        font-size: 25px !important;
+        line-height: 30px !important;
+    }
+
+}
